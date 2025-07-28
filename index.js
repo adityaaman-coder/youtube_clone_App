@@ -4,8 +4,6 @@ const app = express();
 app.use(cors());
 
 // app.get("/movie",async(req , res)=>{
-
-    
 //     var name = req.query.value;
 //     const url = "https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyDgbfDh0ugI2tFCTlEaHre9wigPFc273OA&maxResults=5&type=video&q="+name;
 //     try{
@@ -18,6 +16,6 @@ app.use(cors());
 // })
        
 
-app.listen(5500, () => {
+app.listen(5500,()=>{
     console.log('server running at port 5500');
 })
